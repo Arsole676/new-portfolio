@@ -1,0 +1,44 @@
+@import "../reusables.scss";
+
+
+.about{
+    background-image: url(/public/Group2.png);
+    main{
+        margin-left: 779px;
+        display: flex;
+        margin-top: 7rem;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        h1{
+            border-bottom: solid 5px #EF0173;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin: 0%;
+            font-size: 3rem;
+        }
+
+        p{
+            font-size: 1.2rem;
+            font-weight: 200;
+            color: whitesmoke;
+            margin: 0%;
+        }
+
+        .heading{
+            font-weight: 800;
+            font-size: 2rem;
+            color: #EF0173;
+        }
+
+        .skills{
+            display: flex;
+            font-weight: 200;
+            color: whitesmoke;
+            .skill2{
+                padding-left: 1rem;
+            }
+        }
+    }
+}

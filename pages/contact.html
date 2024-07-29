@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../public/smily1.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/460e75c901.js" crossorigin="anonymous"></script>
+    <style>
+      body{
+        background-image: url(../public/newbg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+      emailjs.init({
+        publicKey: "9gEQ9I3TkbI4z1zzS",
+      });
+    })();
+</script>
+    <title> | Contact</title>
+</head>
+<body id="loading">
+    <nav>
+        <div class="logo">
+          <a href="/index.html">
+            <img src="/smily1.png" alt="LOGO">
+          </a>
+        </div>
+        <div class="links">
+          <a href="./service.html">Blog</a>
+          <a href="./work.html">Work</a>
+          <a href="./contact.html" style="color: #EF0173;">Contact</a>
+        </div>
+      </nav>
+
+      <main>
+        <div class="contact-text">
+          <h1 class="big">Get in Touch ―</h1>
+          <div class="address">
+            <div class="home-address">
+              <h1>My address</h1>
+              <br>
+              <br>
+              <br>
+              <p>New Barrackpore</p>
+              <p>Kolkata 700131</p>
+              <p>West Bengal, India</p>
+            </div>
+            <div class="socials">
+              <h1>Contact Me</h1>
+              <br>
+              <br>
+              <br>
+              <p>Gmail - arsole676@gmail.com</p>
+              <p>Telegram - @Agrazel</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <div class="top">
+            <h1>Contact me ―</h1>
+            <div class="my-form">
+              <form action="https://formspree.io/f/xgvwogjg" method="POST">
+                <input type="text" name="Name" id="name" placeholder="Your Name" required>
+                <input type="email" name="Gmail" id="gmail" placeholder="Your Gmail" required>
+                <input type="text" name="Subject" id="subject" placeholder="Subject" required>
+                <textarea name="Message" id="message" cols="30" rows="10" placeholder="Type your message" required></textarea>
+                <!-- <input type="text" name="Message" id="message" placeholder="Your Message" required> -->
+                <br>
+              <br>
+              <a href="" class="left" download><i class="fa-solid fa-download"></i>Download C.V</a>
+              <button class="right" type="submit">Send Message ―</button>
+              </form>
+            </div>
+          </div>
+          <div class="bottom">
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></i></a>
+              <p>― follow me</p>
+          </div>
+        </div>
+      </main>
+
+      <script type="module" src="/links.js"></script>
+      <script type="module" src="/main.js"></script>
+      <script type="text/javascript">
+        document.getElementById("loading").style.display = "none";
+  
+        document.addEventListener("DOMContentLoaded", function() {
+          document.getElementById("loading").style.display = "block";
+        });
+      </script>
+</body>
+</html>

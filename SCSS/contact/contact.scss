@@ -1,0 +1,191 @@
+@import "/SCSS/reusables.scss";
+
+body{
+
+    main{
+        display: contents;
+        flex-direction: row;
+
+        .contact-text{
+
+            position: absolute;
+            bottom: 12%;
+            .big{
+                font-size: 3rem;
+                color: whitesmoke;
+                font-weight: 600;
+            }
+
+            .address{
+                display: flex;
+                flex-direction: row;
+                margin-top: 7rem;
+                h1{
+                    font-size: 1.35rem;
+                    font-weight: 900;
+                    color: rgba(245, 245, 245, 0.732);
+                }
+    
+                p{
+                    font-weight: 100;
+                    font-size: 1.05rem;
+                    color: whitesmoke;
+                }
+
+                .socials{
+                    margin-left: 15rem;
+                    a{
+                        color: rgba(245, 245, 245, 0.732);
+                        font-size: 1.2rem;
+                        padding: 0 0.3rem;
+                    }
+                }
+            }
+
+        }
+
+        .contact-form{ 
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            right: 7%;
+            border-radius: 4px;
+            height: 600px;
+            width: 480px;
+            
+            .top{
+                background-color: $dark-lite;
+                height: 600px;
+                display: flex;
+                flex-direction: column;
+                .my-form{
+                    form{
+                        display: flex;
+                        flex-direction: column;
+                        input[type=text]{
+                            margin: 0.8rem 2rem;
+                            background-color: $dark-lite;
+                            outline: none;
+                            border-right: none;
+                            border-left: none;
+                            border-top: none;
+                            border-bottom: 1px solid rgba(245, 245, 245, 0.732);;
+                            color: rgba(245, 245, 245, 0.732);
+                            font-size: 0.8rem;
+                            font-weight: 200;
+                            height: 2rem;
+                        }
+
+                        textarea{
+                            margin: 0.8rem 2rem;
+                            background-color: $dark-lite;
+                            outline: none;
+                            border-right: none;
+                            border-left: none;
+                            border-top: none;
+                            border-bottom: 1px solid rgba(245, 245, 245, 0.732);;
+                            color: rgba(245, 245, 245, 0.732);
+                            font-size: 0.8rem;
+                            font-weight: 400;
+                            height: 2rem;
+                        }
+
+                        input[type=email]{
+
+                            margin: 0.8rem 2rem;
+                            background-color: $dark-lite;
+                            outline: none;
+                            border-right: none;
+                            border-left: none;
+                            border-top: none;
+                            border-bottom: 1px solid rgba(245, 245, 245, 0.732);;
+                            color: rgba(245, 245, 245, 0.732);
+                            font-size: 0.8rem;
+                            font-weight: 200;
+                            height: 2rem;
+                            
+                        }
+
+                        #message{
+                            height: 6rem;
+                        }
+                    }
+
+                    .left{
+                        display: flex;
+                        text-align: center;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0.8rem 2rem;
+                        margin-left: 0%;
+                        background-color: $dark-lite;
+                        height: 3.2rem;
+                        text-decoration: none;
+                        width: 12rem;
+                        font-size: 16px;
+                        font-weight: bold;
+                        border: none;
+                        outline: none;
+                        color: whitesmoke;
+
+                        i{
+                            margin-right: 10px;
+                        }
+
+                    }
+
+                    .right{
+                        margin: 0.8rem 0;
+                        position: absolute;
+                        right: 0%;
+                        bottom: 17%;
+                        height: 3.2rem;
+                        width: 12rem;
+                        background-color: $dark;
+                        font-size: 16px;
+                        font-weight: lighter;
+                        color: whitesmoke;
+                        border: none;
+                        outline: none;
+                        border-top-left-radius: 4px;
+                        border-bottom-left-radius: 4px;
+                    }
+                }
+
+                h1{
+                    color: rgba(245, 245, 245, 0.732);
+                    font-size: 1.2rem;
+                    padding: 2rem;
+                    font-weight: 200;
+                }
+            }
+
+            .bottom{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                background-color: $dark;
+                border-radius: 4px;
+                padding: 0% 1rem;
+                height: 5rem;
+                position: absolute;
+                bottom: -1%;
+                right: 0%;
+                width: 480px;
+                a{
+                    color: rgba(245, 245, 245, 0.732);
+                    font-size: 1.4rem;
+                    padding: 0 0.3rem;
+                }
+                p{
+                    color: rgba(245, 245, 245, 0.732);
+                    font-size: 1.2rem;
+                    margin-left: auto;
+                }
+            }
+        }
+
+
+    }
+}
